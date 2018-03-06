@@ -1,0 +1,509 @@
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+    	overflow: hidden;
+      /*text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+       Center slide text vertically
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;*/
+    }
+    
+    
+/*第一屏开始*/
+.swiper-container .swiper-slide.one{
+	background: url(../image/one_bg.png);
+	background-size: 100% 100%;
+}
+
+.swiper-container .swiper-slide.one .one-top{
+	width: 8rem;
+	position: relative;
+	margin: auto;
+    margin-top: 20%;
+    z-index: 1;
+}
+.swiper-container .swiper-slide.one .one-top img{
+	position: absolute;
+	width: 2.5rem;
+}
+.swiper-container .swiper-slide.one img.weiyou{
+	left:0;
+}
+.swiper-container .swiper-slide.one img.only{
+    left: 2.6rem;
+    top: 0.4rem;
+}
+.swiper-container .swiper-slide.one img.youth{
+	width: 0.6rem;
+    left: 0.18rem;
+    top: 1.3rem;
+}
+.swiper-container .swiper-slide.one img.qinchun{
+	width: 4.6rem;
+    left: 0.9rem;
+    top: 1.4rem;
+}
+.swiper-container .swiper-slide.one img.and{
+	width: 0.54rem;
+    right: 1.9rem;
+    top: 1.3rem;
+}
+.swiper-container .swiper-slide.one img.shudao{
+	width: 0.14rem;
+    left: 0;
+    top: 0.89rem;
+}
+.swiper-container .swiper-slide.one img.yu{
+	width: 1.6rem;
+    top: 2.7rem;
+    right: 0.88rem;
+}
+.swiper-container .swiper-slide.one img.mengxiang{
+	width: 3.9rem;
+    top: 3.9rem;
+    left: 0.3rem;
+}
+.swiper-container .swiper-slide.one img.dr{
+	top: 4.2rem;
+    right: 0.5rem;
+    width: 3.2rem;
+}
+.swiper-container .swiper-slide.one img.henggang{
+	width: 5rem;
+    left: 0.1rem;
+    top: 6.17rem;
+}
+.swiper-container .swiper-slide.one img.giveup{
+	top: 6.4rem;
+    right: 0.3rem;
+    width: 2rem;
+}
+.swiper-container .swiper-slide.one img.bukegufu{
+	width: 5.5rem;
+    top: 6.3rem;
+    left: 0;
+}
+.swiper-container .swiper-slide.one .one-bottom{
+	width: 8.4rem;
+	margin: auto;
+}
+.swiper-container .swiper-slide.one img.onei-bottom{
+	width: 16rem;
+    position: absolute;
+    bottom: -2rem;
+    left: -0.7rem;
+    z-index: 0;
+}
+/*第一屏结束*/
+
+/*第二开始*/
+.swiper-container .swiper-slide.two{
+	background: url(../image/two_bg.png);
+	background-size: 100% 100%;
+}
+.swiper-container .swiper-slide.two .two-topimg img{
+	opacity: 0.4;
+}
+.swiper-container .swiper-slide.two .two_conent{
+	width: 10rem;
+	margin: auto;
+}
+.swiper-container .swiper-slide.two .two_biaoti{
+/*	width: 1.2rem;*/
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+    position: relative;
+    float: left;
+}
+.swiper-container .swiper-slide.two .two_biaoti img:nth-child(1){
+	width: 1.3rem;
+}
+.swiper-container .swiper-slide.two .two_biaoti img:nth-child(2){
+	position: absolute;
+    top: -0.2rem;
+    width: 1rem;
+    left: 0.15rem;
+}
+.swiper-container .swiper-slide.two .two_biaoti img:nth-child(3){
+	position: absolute;
+    top: 2rem;
+    width: 1.7rem;
+    left: -0.2rem;
+}
+.swiper-container .swiper-slide.two .two_biaoti img:nth-child(4){
+    position: absolute;
+    bottom: -0.4rem;
+    width: 1rem;
+    left: 0.15rem;
+}
+.swiper-container .swiper-slide.two .photos{
+	float: left;
+	margin-top: 1rem;
+}
+.swiper-container .swiper-slide.two .photos .two_photo1 img:nth-child(1){
+	width: 7.5rem;
+}
+.swiper-container .swiper-slide.two .photos .two_photo1 img:nth-child(2){
+	position: absolute;
+    top: 0.3rem;
+    width: 6.6rem;
+    left: 0.5rem;
+}
+.swiper-container .swiper-slide.two .photos .two_photo2 img:nth-child(1){
+	width: 7.5rem;
+}
+.swiper-container .swiper-slide.two .photos .two_photo2 img:nth-child(2){
+    position: absolute;
+    top: 0.25rem;
+    width: 6.6rem;
+    left: 0.55rem;
+}
+/*第二屏结束*/
+
+/*第三屏开始*/
+.swiper-container .swiper-slide.three{
+	background: url(../image/threebg.png);
+	background-size: 100% 100%;
+}
+.swiper-container .swiper-slide.three .three_conent{
+	width: 10rem;
+	margin: auto;
+	position: relative;
+}
+.swiper-container .swiper-slide.three .three_conent{
+	width: 10rem;
+	margin: auto;
+}
+.swiper-container .swiper-slide.three .three_biaoti{
+/*	width: 1.2rem;*/
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+    position: relative;
+    float: left;
+}
+.swiper-container .swiper-slide.three .three_biaoti img:nth-child(1){
+	width: 1.3rem;
+}
+.swiper-container .swiper-slide.three .three_biaoti img:nth-child(2){
+	position: absolute;
+    top: -0.2rem;
+    width: 1rem;
+    left: 0.15rem;
+}
+.swiper-container .swiper-slide.three .three_biaoti img:nth-child(3){
+	position: absolute;
+    top: 2rem;
+    width: 1.7rem;
+    left: -0.2rem;
+}
+.swiper-container .swiper-slide.three .three_biaoti img:nth-child(4){
+    position: absolute;
+    bottom: -0.4rem;
+    width: 1rem;
+    left: 0.15rem;
+}
+.swiper-slide.three .yihang{
+	position: absolute;
+}
+.swiper-slide.three .three_photo1{
+	left: 2.3rem;
+    top: 1.4rem;
+}
+.swiper-slide.three .three_photo2{
+	top: 1.3rem;
+    left: 6.2rem;
+}
+.swiper-slide.three .yihang img{
+	position: absolute;
+	width: 3.77rem;
+	
+}
+.swiper-slide.three .three_photo3{
+    position: absolute;
+    top: 5.3rem;
+    left: 2rem;
+}
+.swiper-slide.three .three_photo3 img{
+	position: absolute;
+	width: 7.6rem;
+
+}
+.swiper-slide.three .sanhang{
+	position: absolute;
+}
+.swiper-slide.three .three_photo4{
+    left: 0.3rem;
+    top: 9.4rem;
+}
+.swiper-slide.three .three_photo5{
+	top: 9.6rem;
+    left: 5.1rem;
+}
+.swiper-slide.three .three_photo6{
+    top: 13.5rem;
+    left: 0.2rem;
+}
+.swiper-slide.three .three_photo7{
+    top: 13.7rem;
+    left: 5.1rem;
+}
+.swiper-slide.three .sanhang img{
+	position: absolute;
+	width: 4.6rem;
+}
+/*第三屏结束*/
+
+
+/*第四屏开始*/
+.swiper-container .swiper-slide.four{
+	background: url(../image/four_bg.png);
+	background-size: 100% 100%;
+}
+.swiper-container .swiper-slide.four .four_conent{
+	width: 10rem;
+	margin: auto;
+}
+.swiper-container .swiper-slide.four .four_biaoti{
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+    position: relative;
+    float: left;
+}
+.swiper-container .swiper-slide.four .four_biaoti img:nth-child(1){
+	width: 1.3rem;
+}
+.swiper-container .swiper-slide.four .four_biaoti img:nth-child(2){
+	position: absolute;
+    top: -0.6rem;
+    width: 1.24rem;
+}
+.swiper-container .swiper-slide.four .four_biaoti img:nth-child(3){
+	position: absolute;
+    top: 0.7rem;
+    width: 1.1rem;
+    left: 0.1rem;
+}
+.swiper-container .swiper-slide.four .four_biaoti img:nth-child(4){
+	position: absolute;
+    top: 1.87rem;
+    width: 1.7rem;
+    left: -0.2rem;
+}
+.swiper-container .swiper-slide.four .four_biaoti img:nth-child(5){
+    position: absolute;
+    bottom: -0.4rem;
+    width: 1rem;
+    left: 0.15rem;
+}
+.swiper-slide.four .four_photos{
+	float: left;
+	position: relative;
+}
+.swiper-slide.four .four_photos .four_photokuang{
+	width: 7.3rem;
+    margin-left: 0.25rem;
+    margin-top: 1rem;
+}
+.swiper-slide.four .four_photo img{
+    position: absolute;
+    width: 6.5rem;
+}
+.swiper-slide.four .four_photo img:nth-child(1){
+    top: 1.4rem;
+    left: 0.65rem;
+}
+.swiper-slide.four .four_photo img:nth-child(2){
+    top: 6.5rem;
+    left: 0.65rem;
+}
+.swiper-slide.four .four_photo img:nth-child(3){
+    top: 12.4rem;
+    left: 0.65rem;
+}
+/*第四屏结束*/
+
+/*第五屏开始*/
+.swiper-container .swiper-slide.five{
+	background: url(../image/five_bg.png);
+	background-size: 100% 100%;
+}
+.swiper-container .swiper-slide.five .five_conent{
+	width: 10rem;
+	margin: auto;
+}
+.swiper-container .swiper-slide.five .five_biaoti{
+    margin-left: 0.7rem;
+    margin-top: 2rem;
+    position: relative;
+    float: left;
+}
+.swiper-container .swiper-slide.five .five_biaoti img:nth-child(1){
+	width: 1.3rem;
+}
+.swiper-container .swiper-slide.five .five_biaoti img:nth-child(2){
+	position: absolute;
+    top: -0.6rem;
+    width: 1.24rem;
+}
+.swiper-container .swiper-slide.five .five_biaoti img:nth-child(3){
+	position: absolute;
+    top: 0.7rem;
+    width: 1.1rem;
+    left: 0.1rem;
+}
+.swiper-container .swiper-slide.five .five_biaoti img:nth-child(4){
+	position: absolute;
+    top: 1.87rem;
+    width: 1.7rem;
+    left: -0.2rem;
+}
+.swiper-container .swiper-slide.five .five_biaoti img:nth-child(5){
+    position: absolute;
+    bottom: -0.4rem;
+    width: 1rem;
+    left: 0.15rem;
+}
+.swiper-slide.five .five_photos{
+	float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.7rem;
+}
+.swiper-slide.five .five_photos .five_photo1{
+	position: relative;
+	margin-bottom: 0.3rem;
+}
+.swiper-slide.five .five_photos .five_photo1 img{
+	width: 6.1rem;
+}
+.swiper-slide.five .five_photos .five_photo1 img:nth-child(2){
+	position: absolute;
+	top: -0.1rem;
+    right: -0.2rem;
+}
+/*第五屏结束*/
+
+
+/*第六屏开始*/
+.swiper-container .swiper-slide.six{
+	background: url(../image/six_bg.png);
+	background-size: 100% 100%;
+}
+.swiper-container .swiper-slide.six .six_conent{
+	width: 10rem;
+	margin: auto;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+}
+.swiper-slide.six .six_top{
+	    position: relative;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+}
+.swiper-slide.six .six_top img{
+	position: absolute
+}
+.swiper-slide.six .six_top img:nth-child(1){
+	    width: 3.6rem;
+}
+.swiper-slide.six .six_top img:nth-child(2){
+	    left: 0.8rem;
+    top: 2.37rem;
+    width: 2.6rem;
+}
+.swiper-slide.six .six_top img:nth-child(3){
+	    top: 1.4rem;
+    left: 3.9rem;
+    width: 1.3rem;
+}
+.swiper-slide.six .six_top img:nth-child(4){
+	    top: 1.4rem;
+    left: 5.5rem;
+    width: 2.56rem;
+}
+.swiper-slide.six .six_top img:nth-child(5){
+	    top: 2.1rem;
+    left: 0.488rem;
+    width: 8.3rem;
+}
+.swiper-slide.six .six_top img:nth-child(6){
+    top: 3.9rem;
+    width: 8rem;
+    left: 0.7rem;
+}
+.swiper-slide.six .six_zhong{
+	text-align: center;
+	margin: 0.8rem 0;
+}
+.swiper-slide.six .six_zhong p{
+	font-size: 0.49rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 0.3rem;
+}
+.swiper-slide.six .six_bottom{
+	text-align: center;
+	margin: 0.5rem 0;
+}
+.swiper-slide.six .six_bottom img{
+	width: 5.5rem;
+}
+/*第六屏结束*/
+
+
+/*music开始*/
+#music{
+
+	width: 1.8rem;
+	height: 1.8rem;
+	position: absolute;
+	top: 2%;
+	right: 2%;
+	z-index: 2;
+	padding: 0.3rem;
+    box-sizing: border-box;
+	
+}
+#music img{
+	position: absolute;
+}
+#music .musicbg{
+	top: -0.1rem;
+    left: -0.1rem;
+}
+#music .musicimg{
+	animation: xuanzhuan 2s linear infinite;
+}
+@keyframes xuanzhuan{
+100%{
+	transform: rotate(360deg);
+}
+}
+/*music结束*/
